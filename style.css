@@ -59,7 +59,6 @@ header .button {
     padding: 10px 25px;
     font-size: 15px;
     font-weight: bold;
-    font-size: 15px;
     transition: 0.3s linear;
     overflow: hidden;
     color: #ffffff;
@@ -76,14 +75,13 @@ header .button:hover {
 /*main-icon*/
 
 .main-icon {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%  10%;
     text-align: center;
     background-color: #EEEEEF;
 }
 
 .main-icon-header {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -105,8 +103,7 @@ header .button:hover {
 /*main-green-button*/
 .main-green-button {
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 10%;
+    padding: 5% 10%;
     background-color: #F6F6F6;
 
 }
@@ -116,13 +113,13 @@ header .button:hover {
 }
 
 .image-template img {
-    width: 90%;
+    width: 100%;
     height: auto;
     transition: 0.3s linear;
 }
 
 .main-green-button h5 {
-    width: 90%;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     border-bottom: 1px solid #D3D3D3;
@@ -131,7 +128,7 @@ header .button:hover {
 }
 
 .main-green-button p {
-    width: 90%;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -141,7 +138,6 @@ header .button:hover {
     border: none;
     background-color: #00C2B3;
     padding: 10px 15px;
-    font-size: 15px;
     font-weight: bold;
     margin-bottom: 8%;
     font-size: 12px;
@@ -167,13 +163,12 @@ header .button:hover {
 
 /*fully-supported-template*/
 .fully-supported-template {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5% 10%;
     background-color: #EEEEEF;
 }
 
 .fully-supported-template h5 {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding-top: 5%;
     padding-bottom: 3%;
@@ -185,7 +180,7 @@ header .button:hover {
 .fully-supported-template p {
     padding-top: 3%;
     padding-bottom: 3%;
-    width: 70%;
+    width: 100%;
 }
 
 .fully-supported-template a {
@@ -194,7 +189,6 @@ header .button:hover {
     background-color: #D0D4D9;
     color: #ffffff;
     padding: 10px 15px;
-    font-size: 15px;
     font-weight: bold;
     margin-bottom: 8%;
     font-size: 12px;
@@ -211,21 +205,24 @@ header .button:hover {
 /*photo*/
 .photo {
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 10%;
+
+    padding: 10%;
     background-color: #F6F6F6;
 
-}
 
+}
+.image-wrapper{
+    height: 200px;
+    overflow: hidden;
+}
 .photo img {
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    margin: 0 auto;
     transition: 0.3s linear;
 }
 
 .photo h5 {
-    width: 90%;
-    height: auto;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     border-bottom: 1px solid #D3D3D3;
@@ -258,9 +255,8 @@ header .button:hover {
 
 /*send*/
 .send {
-    padding-top: 5%;
+    padding: 5% 10%;
     width: 100%;
-    padding-bottom: 10%;
     background-color: #EEEEEF;
 }
 
@@ -269,7 +265,7 @@ header .button:hover {
 }
 
 .send h5 {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -280,7 +276,7 @@ header .button:hover {
 
 .send p {
     padding-top: 3%;
-    width: 90%;
+    width: 100%;
 }
 
 .send a {
@@ -289,7 +285,6 @@ header .button:hover {
     background-color: #00C2B3;
     color: #ffffff;
     padding: 10px 15px;
-    font-size: 15px;
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;
@@ -306,23 +301,23 @@ header .button:hover {
 /*just-for-you*/
 .just-for-you {
     width: 100%;
-    padding: 5% 15%;
+    padding: 5% 10%;
     background-color: #F6F6F6;
 }
 
 .just-for-you-photo {
-    width: 35%;
+    width: 100%;
     float: left;
 
 }
 
 .just-for-you-text {
-    width: 50%;
+    width: 100%;
     float: right;
 }
 
 .just-for-you-text h5 {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -333,7 +328,7 @@ header .button:hover {
 
 .just-for-you-text p {
     padding-top: 3%;
-    width: 90%;
+    width: 100%;
 }
 
 .just-for-you-text a {
@@ -342,7 +337,6 @@ header .button:hover {
     background-color: #D0D4D9;
     color: #ffffff;
     padding: 10px 15px;
-    font-size: 15px;
     font-weight: bold;
     margin-bottom: 8%;
     font-size: 12px;
@@ -374,13 +368,13 @@ header .button:hover {
 }
 
 .green-background .input {
-    width: 45%;
+    width: 100%;
     float: left;
     margin-right: 5%;
 }
 
 .green-background .textarea {
-    width: 45%;
+    width: 100%;
     float: left;
 
 }
@@ -402,8 +396,7 @@ header .button:hover {
 /*copyright*/
 .copyright {
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2% 10%;
     background-color: #F6F6F6;
 }
 
